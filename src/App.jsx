@@ -142,7 +142,7 @@ export default function App() {
                   <button onClick={() => setQty(qty + 1)}><Plus size={16} /></button>
                 </div>
               </div>
-              <button className="cta">teste</button>
+              <div className="cta-bar"><button className="cta">teste</button></div>
             </div>
           </div>
         </div>
