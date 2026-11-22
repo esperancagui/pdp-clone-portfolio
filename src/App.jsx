@@ -176,10 +176,6 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="foot">
-        Projeto feito para currículo — clone de interface para fins de estudo, sem vínculo com o TikTok ou a TikTok Shop.
-      </footer>
-
       <button className="to-top" onClick={() => scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Voltar ao topo">
         <ArrowUpToLine size={16} />
       </button>

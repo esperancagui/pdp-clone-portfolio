@@ -11,7 +11,7 @@ export const product = {
   sold: '10 vendido(s)',
   variant: 'Edição Padrão Standard',
   breadcrumb: [
-    ['TikTok Shop', `${TT}/br`],
+    ['Shop', `${TT}/br`],
     ['Telefones e eletrônicos', `${TT}/br/c/phones-electronics/601739`],
     ['Jogos e consoles', `${TT}/br/c/gaming-consoles/909448`],
     ['Videogames', `${TT}/br/c/video-games/913800`],

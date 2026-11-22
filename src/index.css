@@ -116,7 +116,6 @@ img { display: block; }
 .cards-arrow { position: absolute; top: 105px; transform: translateY(-50%); width: 32px; height: 32px; border-radius: 50%; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.16); display: grid; place-items: center; }
 .cards-arrow.l { left: -16px; } .cards-arrow.r { right: -16px; }
 
-.foot { border-top: 1px solid rgba(0,0,0,.08); margin-left: 72px; padding: 24px 16px 32px; text-align: center; font-size: 13px; color: rgba(0,0,0,.48); }
 .to-top { position: fixed; right: 24px; bottom: 24px; width: 40px; height: 40px; border-radius: 50%; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.16); display: grid; place-items: center; z-index: 10; }
 
 /* telas menores: empilha as colunas */
@@ -189,6 +188,6 @@ img { display: block; }
   .cdisc, .cint { font-size: 16px; }
   .cards-arrow { display: none; }
 
-  .foot { margin-left: 0; padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+  .wrap { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
   .to-top { bottom: calc(80px + env(safe-area-inset-bottom)); right: 12px; width: 36px; height: 36px; }
 }
